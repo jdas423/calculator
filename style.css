@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+head {
+    width: 0;
+    height: 0
+}
+
+html,
+body,
+main {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 71, 71);
+}
+
+.main {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    padding: 13px;
+    border: 2px solid white;
+    border-radius: 21px;
+    color:rgb(236, 71, 71);
+}
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: -32px;
+    font-family: Borel, cursive;
+    font-size: 43px;
+}
+
+.type {
+    width: fit-content;
+    height: fit-content;
+    font-family: Borel, cursive;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 10px;
+    margin: 0.5px;
+    width: 78px;
+    height: 45px;
+    color: white;
+    background-color: rgb(236, 71, 71);
+    border: 1px solid rgb(236, 71, 71);
+    border-radius: 11px;
+    margin-left: -2.5px;
+    font-weight: 600;
+}
+
+.icon-design{
+    font-size:37px;
+    color:rgb(236, 71, 71);
+}
+
+.display{
+    color: rgb(236, 71, 71);
+    width: 100%;
+    height: fit-content;
+    text-align: right;
+    margin-bottom: 12px;
+    margin-top: -12px;
+}
+.upper{
+    width: 97%;
+    height: 20px;
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+.lower{
+    width: 97%;
+    height: 30px;
+    font-size: 24px;    
+}
